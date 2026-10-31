@@ -1,10 +1,10 @@
 # Shared owner rules
 
-Policy version: 2026-10-31.2. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
+Policy version: 2026-10-31.3. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
 
 ## Read at the start of every project/chat
 
-Read this snapshot and the current general-rules README, AGENTS.md and linked quality, Actions and working-agreement documents once at startup when authenticated access is available. Then read this project's own instructions, handover and relevant owner feedback. A cached authenticated Git checkout can be fetched without resetting local files. If access is unavailable, use this snapshot, identify its version and continue independent authorized work. Do not poll the rules during a task or store credentials in Git.
+Read this snapshot and the current general-rules START_HERE.md, README, AGENTS.md and linked quality, Actions and working-agreement documents once at startup when authenticated access is available. Then read this project's own instructions, handover and relevant owner feedback. Fetch origin/main once and read the fetched revision; fetching alone does not update working-tree files. The canonical tools/start-project.py reads that revision without resetting local edits and can install the startup files in a project. If access is unavailable, use this snapshot, identify its version and continue independent authorized work. Do not poll the rules during a task or store credentials in Git.
 
 These rules travel in Git and apply on every device, not only a particular computer. When a chat creates a new project/repository, it must install the portable root AGENTS.md pointer and this GENERAL_RULES.md snapshot before implementation and its first push. Use the canonical repository's tools/bootstrap-project.py or equivalent authenticated file writes while preserving existing instructions. A local rules checkout is only a cache. GitHub account membership does not automatically populate a new empty repository; the creating chat must perform this bootstrap.
 
@@ -17,6 +17,10 @@ Latest explicit human instructions govern conflicts. These owner rules supersede
 > We will measure everything against: "Would peak Blizzard really be ok with this quality, or how would they make it more compact, easily understandable with amazing game feel?" and strive towards those heights.
 
 Evaluate the actual playable journey: the appeal of the core activity; an immediately recognizable goal/action/state/consequence; compact, purposeful controls; broad accessibility; responsive touch/motion/sound/feedback; coherent art and interface; meaningful depth; and enjoyable progression. Teach through play. Remove unnecessary screens, repetition and administrative effort while preserving depth. Review real entry, onboarding, core actions, results and save return on the intended screen/input. Passing tests, recolors, static cards and a feature list do not certify game quality, fun or owner acceptance. Respect the project's approved direction and make concrete improvements within authorized scope.
+
+Game feel and purposeful juiciness are among our highest priorities from the first playable prototype onward. Core actions should feel responsive, tactile and satisfying to repeat. Design and evaluate controls, animation, timing, audio, haptics and effects together throughout development. Review the actual experience of playing; functional correctness alone is insufficient.
+
+Juice means coordinated, purposeful feedback that gives actions weight, character, clarity and satisfying consequences: motion, anticipation and follow-through, impact timing, particles, sound, haptics and reactions appropriate to the game. Tune it to the action's importance and the project's style. Preserve responsiveness, readability, accessibility and performance; intensity, clutter, delays and fatigue are not quality. Provide appropriate reduced-motion, sound and haptic controls. For other interactive projects, apply the same priority to responsive controls and clear, satisfying feedback suited to their purpose. This rule does not authorize replacing approved art or expanding a paused project's scope.
 
 ## Scarce GitHub Actions usage
 
