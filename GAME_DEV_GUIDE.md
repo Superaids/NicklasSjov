@@ -1,12 +1,26 @@
 # Portable game development guide
 
-**Shared policy 2026-10-31.4, 31 October 2026.** This compact foundation travels with projects when the full private [Game Development Bible](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/00-START-HERE.md) cannot be fetched. Read `GENERAL_RULES.md` and the project's current instructions, accepted direction and handover. When authenticated access is available, fetch the canonical rules once, record the revision and read the task's chapters from that revision. This file is not the whole library and does not certify expertise or success.
+**Shared policy 2026-10-31.5, 31 October 2026.** This compact foundation travels with projects when the full private [Game Development Bible](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/00-START-HERE.md) cannot be fetched. Read `GENERAL_RULES.md` and the project's current instructions, accepted direction and handover. When authenticated access is available, fetch the canonical rules once, record the revision and read the task's chapters from that revision. This file is not the whole library and does not certify expertise or success.
 
 ## Own the design judgment
 
 The owner should not need to teach the agent how to design a game, a shop, a clear interface or good feel. Establish the intended player experience, inspect the actual project and relevant original references, compare credible choices and explain why the chosen mechanism fits this game. For important choices retain a compact decision record: context, alternatives, mechanism, rules/sources, expected benefit, cost, actual evidence and what would change the decision. Reuse component-level decisions rather than generating paperwork for every pixel.
 
 Separate owner requirements, platform guidance, study results, practitioner accounts, house hypotheses and actual project observations. An agent's self-review is not a player study. Passing tests does not establish enjoyment, beauty, acceptance or physical-device behavior. Never invent measurements or attribute our sample timing values to successful studios.
+
+## Five strong design principles
+
+**No text.** Target zero visible text. Treat needing a label or explanation as a probable failure of intuitive mechanics, GUI, UX, affordance or shown teaching. Fix that cause first through objects, recognizable icons, shape/position/color, motion and feedback. A hand can demonstrate a mobile drag; then the player acts. Do not replace words with cryptic symbols or color-only essential cues. Every remaining word needs a concrete purpose after better presentation has been considered. Preserve exact purchase commitments, necessary notices and screen-reader semantics; these functional needs do not justify explanatory prose everywhere.
+
+**Show, don't tell.** Reveal lore through world, assets, items, behavior, pacing, hints and consequences. Teach through notice, demonstration/opportunity, voluntary attempt, feedback, independent practice and later transfer. Let the player experiment, delay or decline. A challenge may require the learned skill without a tutorial taking over control or disabling unrelated actions solely to force obedience. Guide through landmarks, framing, light, motion, route shape and curiosity before adding directions.
+
+**Fun first.** Every system exists to make play more enjoyable. Prove the core activity before progression or monetization. Balance matters when it improves fun, meaningful choices, expression, counterplay or fairness for the players involved. Equal numbers do not establish enjoyment. Preserve an exciting capability where possible while resolving the actual frustration. Quiet, cozy, clever and suspenseful experiences can all fulfil this principle.
+
+**Rule of cool / Rule of cute.** Create a fantasy, action or character response worth seeing and repeating. Scientific plausibility and literal simulation do not veto a compelling idea. Show the distinctive capability in play. Use the owner's intended cool-led audience briefs and Sunrise's cute-led direction as project intentions to validate with actual players; do not treat gender as proof of preferences. Cool/cute effects still need readable action and coherent world behavior.
+
+**Believable, not realism.** Flying desks, cushion friends and demon wars can all belong. Establish the world's accepted impossibilities, causal rules, time abstraction and motion/material language, then keep behavior and consequences consistent. In train games, compress travel/loading for fun while preserving convincing routes, departure/arrival, cargo transitions and operating rules. Jarring animation and unexplained contradictions break belief even when the world is stylized.
+
+Read [the full principles](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/38-FIVE-DESIGN-PRINCIPLES.md) and [worked cases](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/examples/FIVE-PRINCIPLES-IN-PRACTICE.md). Apply within authorized scope and preserve protected done work.
 
 ## Build the activity before multiplying systems
 
