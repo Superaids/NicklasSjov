@@ -1,10 +1,12 @@
 # Shared owner rules
 
-Policy version: 2026-10-31.1. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
+Policy version: 2026-10-31.2. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
 
 ## Read at the start of every project/chat
 
 Read this snapshot and the current general-rules README, AGENTS.md and linked quality, Actions and working-agreement documents once at startup when authenticated access is available. Then read this project's own instructions, handover and relevant owner feedback. A cached authenticated Git checkout can be fetched without resetting local files. If access is unavailable, use this snapshot, identify its version and continue independent authorized work. Do not poll the rules during a task or store credentials in Git.
+
+These rules travel in Git and apply on every device, not only a particular computer. When a chat creates a new project/repository, it must install the portable root AGENTS.md pointer and this GENERAL_RULES.md snapshot before implementation and its first push. Use the canonical repository's tools/bootstrap-project.py or equivalent authenticated file writes while preserving existing instructions. A local rules checkout is only a cache. GitHub account membership does not automatically populate a new empty repository; the creating chat must perform this bootstrap.
 
 Latest explicit human instructions govern conflicts. These owner rules supersede older requirements to run/check hosted CI after every push. Preserve all unrelated project stops, approval boundaries, privacy and save compatibility. General quality guidance does not reopen a stopped project or approve unseen art changes.
 
