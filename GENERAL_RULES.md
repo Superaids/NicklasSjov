@@ -1,12 +1,12 @@
 # Shared owner rules
 
-Policy version: 2026-10-31.3. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
+Policy version: 2026-10-31.4. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
 
 ## Read at the start of every project/chat
 
 Read this snapshot and the current general-rules START_HERE.md, README, AGENTS.md and linked quality, Actions and working-agreement documents once at startup when authenticated access is available. Then read this project's own instructions, handover and relevant owner feedback. Fetch origin/main once and read the fetched revision; fetching alone does not update working-tree files. The canonical tools/start-project.py reads that revision without resetting local edits and can install the startup files in a project. If access is unavailable, use this snapshot, identify its version and continue independent authorized work. Do not poll the rules during a task or store credentials in Git.
 
-These rules travel in Git and apply on every device, not only a particular computer. When a chat creates a new project/repository, it must install the portable root AGENTS.md pointer and this GENERAL_RULES.md snapshot before implementation and its first push. Use the canonical repository's tools/bootstrap-project.py or equivalent authenticated file writes while preserving existing instructions. A local rules checkout is only a cache. GitHub account membership does not automatically populate a new empty repository; the creating chat must perform this bootstrap.
+These rules travel in Git and apply on every device, not only a particular computer. When a chat creates a new project/repository, it must install the portable root AGENTS.md pointer, this GENERAL_RULES.md snapshot and GAME_DEV_GUIDE.md before implementation and its first push. Use the canonical repository's tools/bootstrap-project.py or equivalent authenticated file writes while preserving existing instructions. A local rules checkout is only a cache. GitHub account membership does not automatically populate a new empty repository; the creating chat must perform this bootstrap.
 
 Latest explicit human instructions govern conflicts. These owner rules supersede older requirements to run/check hosted CI after every push. Preserve all unrelated project stops, approval boundaries, privacy and save compatibility. General quality guidance does not reopen a stopped project or approve unseen art changes.
 
@@ -22,6 +22,18 @@ Game feel and purposeful juiciness are among our highest priorities from the fir
 
 Juice means coordinated, purposeful feedback that gives actions weight, character, clarity and satisfying consequences: motion, anticipation and follow-through, impact timing, particles, sound, haptics and reactions appropriate to the game. Tune it to the action's importance and the project's style. Preserve responsiveness, readability, accessibility and performance; intensity, clutter, delays and fatigue are not quality. Provide appropriate reduced-motion, sound and haptic controls. For other interactive projects, apply the same priority to responsive controls and clear, satisfying feedback suited to their purpose. This rule does not authorize replacing approved art or expanding a paused project's scope.
 
+## Use the game-development knowledge base
+
+The agent owns preparation, reference selection, design judgment, implementation and verification; the owner should not have to teach basic game design, UI, feel or shops. Read the canonical game-dev-bible/00-START-HERE.md, 01-DECISION-STANDARD.md and 02-QUALITY-GATES.md, then the task's chapters through READING-MAP.md. tools/start-project.py --topic <topic> reads them from the fetched revision. Use the checked-in GAME_DEV_GUIDE.md as a compact offline foundation. Research gaps rather than inventing expertise. Explain important choices with relevant rules, original sources, credible alternatives, tradeoffs and actual project evidence. Distinguish hypotheses, house tuning values, implemented behavior and observed/player-tested results. No document or test guarantees studio-equivalent quality or success.
+
+Game UI must belong to the game's identity and support the player's task. Generic flat SaaS/web dashboard cards are not an adequate default game interface. Establish coherent materials, silhouettes, hierarchy, desirable objects, typography and responsive states. Minimal/flat treatment can fit an intentional art direction when demonstrated in context. Read the illustrated atlas, concrete recipes and worked decisions rather than asking the owner to supply basic craft.
+
+## Protected done work and owner review
+
+Never change work marked done, accepted or completed without specific owner authorization, including indirect changes through shared systems/assets/data. Map dependencies and check completed flows affected by new work, such as the tutorial when adding a unit. Fix the new work to preserve accepted behavior; if touching done work is necessary, identify the specific change and obtain authorization. Backlog unrelated defects.
+
+Near production completion, the owner explicitly activates controlled review; a chat may recommend it with reasons. Do not impose it on new projects by default. Once enabled, covered changes require a maintained page containing all current pending reviews, actual old/new comparisons, comments, Approve and Send back with notes. Sprite review includes every frame, scrubbing/stepping and real in-game-speed playback. Maintain a highest-priority-first board: To do, In progress, In review, Approved to prod. Version approvals against exact candidates/baselines, remove obsolete pending items, and keep history separately. A tested bridge must deliver/acknowledge decisions and resume the intended chat; a browser flag alone is insufficient. The chat applies approved versions through the production process or adds returned notes to backlog work. Approval is not verified deployment. Read canonical docs/PRODUCTION_REVIEW.md and Bible chapter 37 before activation.
+
 ## Scarce GitHub Actions usage
 
 The owner does not pay for GitHub and included Actions usage is limited. Local checks are the default. Do not add automatic push, pull-request, schedule, chained or other hosted triggers without a later explicit, scoped owner exception. Repositories without a demonstrated Actions purpose keep Actions disabled. Retain useful manual clean-checkout/native checks only; dispatch them only within owner authorization with a stated purpose, platform, expected jobs/runtime and short artifact retention. A manual workflow's existence is not permission to run it.
@@ -30,7 +42,15 @@ Keep meaningful tests, lockfiles, native sources and local validation tools. Pre
 
 ## Player satisfaction and monetization
 
-Monetization must never hurt player satisfaction. Every purchase, advertisement or other monetization interaction must be designed and evaluated to make the player happy, feel worthwhile and make them want to repeat it. Add desirable value to an enjoyable free game. Do not manufacture frustration, shortages, illness, neglect, delays or other pain to sell relief. Do not interrupt play with unwanted ads or penalize declining. Show exact value and price before commitment; avoid guilt, deceptive offers and pressure. Evaluate enjoyment, regret and the free-player experience alongside revenue; revise or remove harmful monetization. No design guarantees that every person will enjoy every offer without actual validation.
+Every purchase and ad should make the player happy and feel like a good deal; never design an interaction to leave them unhappy or scammed. Add desirable value to an enjoyable free game. Do not manufacture frustration, shortages, illness, neglect, delays or other pain to sell relief. Show exact value and price before commitment; avoid guilt, deception and pressure. Rewarded ads are preferred, genuinely optional and deliver the promised reward. Evaluate enjoyment, regret and free-player experience alongside revenue; revise or remove harmful monetization. No design guarantees every person's reaction without validation.
+
+The sole owner-authorized exception, 31 October 2026: a very simple game whose primary monetization is ads plus a no-ads purchase may use forced ads to encourage no-ads. This narrowly supersedes older blanket bans on forced/unwanted ads; it does not permit deceptive ads, false no-ads claims or manufactured gameplay pain. Prefer rewarded value. Choose formats/cadence using current research and game-specific data, testing retention/churn, satisfaction and net outcomes with uncertainty; neither harmlessness nor harm is assumed. Respect natural breaks, store/network/age/privacy rules and exact no-ads entitlements. Read canonical Bible chapter 35.
+
+## Sjouheim Pulse analytics and privacy
+
+Maximize useful lawful insight through Sjouheim Pulse into players, performance, usage, dropoffs, peaks/lows, progression, retention, churn and ROI, using anonymous aggregates wherever possible. Choose the studio's best lawful option without unnecessary blanket restrictions. Read Pulse's current INTEGRATION.md, API.md and collection review, and canonical docs/ANALYTICS_AND_PRIVACY.md/Bible chapter 36. Preserve its aggregate-only collector boundary and actual permission settings. Do not invent retention/unique players from sessions or verified money from public client counters; use suitable reviewed sources.
+
+Removing names, hashing IDs or first-party hosting does not establish anonymity or exemption from device-access rules. Assess actual fields, combinations, transport/logs, processors, territories and audience. Use supported lawful non-consent bases/exemptions where applicable; obtain and respect consent where required. Do not sell player data, covertly track across games or use deceptive privacy claims. Explain proportionate collection honestly. Define metrics, denominators, coverage, missingness, retention and data quality. A policy update does not silently enable SDKs or certify legal compliance.
 
 ## Working agreements
 
