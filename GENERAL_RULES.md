@@ -1,6 +1,6 @@
 # Shared owner rules
 
-Policy version: 2026-10-31.5. Adopted 31 October 2026. Canonical source: https://github.com/Superaids/general-rules.
+Policy version: 2026-11-01.1. Adopted 1 November 2026. Canonical source: https://github.com/Superaids/general-rules.
 
 ## Read at the start of every project/chat
 
@@ -29,6 +29,10 @@ Five strong owner design principles govern game work. **No text:** target zero v
 The agent owns preparation, reference selection, design judgment, implementation and verification; the owner should not have to teach basic game design, UI, feel or shops. Read the canonical game-dev-bible/00-START-HERE.md, 01-DECISION-STANDARD.md, 02-QUALITY-GATES.md and 38-FIVE-DESIGN-PRINCIPLES.md, then the task's chapters through READING-MAP.md. tools/start-project.py --topic <topic> reads them from the fetched revision. Use the checked-in GAME_DEV_GUIDE.md as a compact offline foundation. Research gaps rather than inventing expertise. Explain important choices with relevant rules, original sources, credible alternatives, tradeoffs and actual project evidence. Distinguish hypotheses, house tuning values, implemented behavior and observed/player-tested results. No document or test guarantees studio-equivalent quality or success.
 
 Game UI must belong to the game's identity and support the player's task. Generic flat SaaS/web dashboard cards are not an adequate default game interface. Establish coherent materials, silhouettes, hierarchy, desirable objects, typography and responsive states. Minimal/flat treatment can fit an intentional art direction when demonstrated in context. Read the illustrated atlas, concrete recipes and worked decisions rather than asking the owner to supply basic craft.
+
+## Rebuild weak foundations before polishing
+
+Diagnose whether the problem is cosmetic or structural. When the concept, mechanic, UX flow, art direction or architecture cannot reach the quality bar through small adjustments, stop the micro-tweaks and compare targeted repair, substantial rework and a fresh implementation of the affected part. Choose the strongest credible route to a good result using evidence, achievable quality and total remaining effort; work already spent is not a reason to preserve a poor foundation. Explain and carry out the needed rework within the authorized scope, proving the replacement with a representative slice before expanding it. Preserve valuable assets, tests, history, saves and unrelated working features. This applies to all projects. It does not authorize destructive resets, changes to protected done work or an unrelated whole-project rewrite; obtain specific authorization when those boundaries would be crossed.
 
 ## Protected done work and owner review
 

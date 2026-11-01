@@ -1,12 +1,18 @@
 # Portable game development guide
 
-**Shared policy 2026-10-31.5, 31 October 2026.** This compact foundation travels with projects when the full private [Game Development Bible](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/00-START-HERE.md) cannot be fetched. Read `GENERAL_RULES.md` and the project's current instructions, accepted direction and handover. When authenticated access is available, fetch the canonical rules once, record the revision and read the task's chapters from that revision. This file is not the whole library and does not certify expertise or success.
+**Shared policy 2026-11-01.1, 1 November 2026.** This compact foundation travels with projects when the full private [Game Development Bible](https://github.com/Superaids/general-rules/blob/main/game-dev-bible/00-START-HERE.md) cannot be fetched. Read `GENERAL_RULES.md` and the project's current instructions, accepted direction and handover. When authenticated access is available, fetch the canonical rules once, record the revision and read the task's chapters from that revision. This file is not the whole library and does not certify expertise or success.
 
 ## Own the design judgment
 
 The owner should not need to teach the agent how to design a game, a shop, a clear interface or good feel. Establish the intended player experience, inspect the actual project and relevant original references, compare credible choices and explain why the chosen mechanism fits this game. For important choices retain a compact decision record: context, alternatives, mechanism, rules/sources, expected benefit, cost, actual evidence and what would change the decision. Reuse component-level decisions rather than generating paperwork for every pixel.
 
 Separate owner requirements, platform guidance, study results, practitioner accounts, house hypotheses and actual project observations. An agent's self-review is not a player study. Passing tests does not establish enjoyment, beauty, acceptance or physical-device behavior. Never invent measurements or attribute our sample timing values to successful studios.
+
+## Rebuild weak foundations before polishing
+
+Owner instruction, 1 November 2026: sometimes starting from scratch is better than polishing a fundamentally weak result. Diagnose the root problem before changing small details. If the concept, mechanic, UX flow, art direction or architecture cannot reach the quality bar through incremental changes, stop micro-tweaking and compare targeted repair, substantial rework and a fresh implementation of the affected part. Choose by evidence, achievable quality and total remaining effort, including migration/regression risk. Work already spent is not a reason to keep a poor foundation.
+
+Recommend and carry out the necessary rework within existing authorization. Prove a representative replacement before scaling it. Preserve useful assets, tests, history, saves and unrelated working features; a weak component does not automatically require a whole-project rewrite. Protected done work, destructive resets and scope expansion still need their specific authorization. The rule applies to all projects and adds no new approval round for rework already authorized.
 
 ## Five strong design principles
 

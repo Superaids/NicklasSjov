@@ -1,5 +1,5 @@
 <!-- SHARED-OWNER-RULES:BEGIN -->
-## Shared owner rules — 31 October 2026
+## Shared owner rules — 1 November 2026
 
 At the beginning of every new project/chat, read [GENERAL_RULES.md](GENERAL_RULES.md) and the current [general-rules repository](https://github.com/Superaids/general-rules) (START_HERE, README, AGENTS and linked policies) once when authenticated access is available. Fetch once and read the fetched revision; tools/start-project.py can do this without resetting local edits. Use the checked-in snapshot if unavailable, then read this project's current handover and instructions.
 
@@ -15,11 +15,13 @@ Five strong design defaults: **No text** (target zero; fix unclear mechanics/GUI
 
 Protect work marked done/accepted/completed from direct or indirect changes without specific owner authorization. Check completed dependencies affected by new work, including tutorials when adding units. Near production completion the owner may explicitly activate controlled review; a chat may suggest it with reasons. Once activated, maintain all current old/new reviews, frame-by-frame/game-speed sprite playback, comments, Approve, Send back with notes and a prioritized To do/In progress/In review/Approved to prod board. Use versioned approvals and tested delivery/resume to the working chat; approval is distinct from production verification. Do not impose this on new projects by default.
 
+**Rebuild weak foundations before polishing.** When small adjustments cannot fix a fundamentally wrong concept, mechanic, UX flow, art direction or architecture, stop micro-tweaking. Compare repair, substantial rework and a fresh implementation of the affected part; choose by evidence, achievable quality and total remaining effort rather than sunk cost. Carry out necessary rework within authorized scope and prove a representative replacement. Preserve useful assets/tests/history/saves and unrelated working features. Protected done work, destructive resets and scope expansion still require their specific authorization.
+
 Every purchase/ad should feel happy and worthwhile, never scammed. Sole later owner exception: very simple games primarily funded by ads plus no-ads may use forced ads to encourage no-ads, based on current research and game-specific retention/churn/satisfaction/net-value evidence; rewarded value is preferred. This narrowly supersedes older blanket forced-ad bans. Read canonical Bible chapter 35.
 
 Maximize useful lawful anonymous insight through Sjouheim Pulse (Bible chapter 36 and its current integration/API/review). Preserve aggregate/permission boundaries; sessions do not establish unique players/retention or verified revenue. Hashes/IDs and small aggregates are not automatically anonymous. Choose supported lawful bases/exemptions without unnecessary restrictions; consent where required, honest privacy, no selling player data/covert cross-game tracking.
 
-The owner does not pay for GitHub; included Actions usage is scarce. Use local checks. No automatic hosted triggers without a later explicit, scoped owner exception. Useful manual cloud/native checks need owner authorization and a stated usage bound. Do not upgrade billing, change visibility, repeatedly poll CI or push status receipts for an unchanged hosted block. Keep meaningful tests and player-satisfaction monetization rules. This instruction supersedes older after-every-push CI requirements; unrelated stops, approval, privacy and save rules remain in force. Policy 2026-10-31.5.
+The owner does not pay for GitHub; included Actions usage is scarce. Use local checks. No automatic hosted triggers without a later explicit, scoped owner exception. Useful manual cloud/native checks need owner authorization and a stated usage bound. Do not upgrade billing, change visibility, repeatedly poll CI or push status receipts for an unchanged hosted block. Keep meaningful tests and player-satisfaction monetization rules. This instruction supersedes older after-every-push CI requirements; unrelated stops, approval, privacy and save rules remain in force. Policy 2026-11-01.1.
 <!-- SHARED-OWNER-RULES:END -->
 
 # Project instructions
